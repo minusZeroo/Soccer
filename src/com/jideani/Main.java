@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+        //which competition does he play
         Player Mason = new Player();
         Mason.setName("Mason");
         Mason.setRating("89");

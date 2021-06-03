@@ -3,10 +3,8 @@ package com.jideani;
 public class Player {
     private int id;
     private String name;
-    private String username;
+    private String surname;
     private String position;
-    private String currentClub;
-    private String rating;
 
     public int getId() {
         return id;
@@ -24,12 +22,12 @@ public class Player {
         this.name = name;
     }
 
-    public String getUsername() {
-        return username;
+    public String getSurname() {
+        return surname;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setSurname(String surname) {
+        this.surname = surname;
     }
 
     public String getPosition() {
@@ -55,4 +53,9 @@ public class Player {
     public void setRating(String rating) {
         this.rating = rating;
     }
+
+    private String currentClub;
+    private String rating;
+
+
 }
