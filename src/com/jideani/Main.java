@@ -5,8 +5,9 @@ public class Main {
     public static void main(String[] args) {
 
         Player Mason = new Player();
-        Mason.setRating("A");
+        Mason.setName("Mason");
+        Mason.setCurrentClub("Chelsea");
 
-        System.out.println("His rating is: " + Mason.getRating());
+        System.out.println("His current club is: " + Mason.getCurrentClub());
     }
 }
